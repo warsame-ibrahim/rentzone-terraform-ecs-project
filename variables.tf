@@ -77,6 +77,20 @@ description     = "Deployment of the az"
 type            = bool
 }
 
+#Acm Variables
+variable "domain_name" {
+description     = "The name of domain"
+type            = string
+}
+
+variable "alternative_names" {
+description     = "sub domain name"
+type            = string
+}
+
+
+
+
 
 
 
