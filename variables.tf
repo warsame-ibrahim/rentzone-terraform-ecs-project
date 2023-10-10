@@ -49,6 +49,13 @@ variable "Private_data_subnet_az2_cidr" {
 description     = "private data subnet az2 cidr block"
 type            = string
 }
+#sg-variables
+variable "ssh_location" {
+description     = "Ip address that can ssh into the servers"
+type            = string
+}
+
+
 
 
 
