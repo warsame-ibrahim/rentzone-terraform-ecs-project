@@ -99,6 +99,19 @@ description     = "the name of the env"
 type            = string
 }
 
+#Ecs Variables
+variable "architecture" {
+description     = "ecs cpu architecture"
+type            = string
+}
+
+variable "container_image" {
+description     = "container image uri"
+type            = string
+}
+
+
+
 
 
 
