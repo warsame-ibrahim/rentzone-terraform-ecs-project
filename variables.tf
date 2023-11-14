@@ -110,6 +110,14 @@ description     = "container image uri"
 type            = string
 }
 
+#Route 53 variables
+variable "record_name" {
+description     = "sub domain name"
+type            = string
+}
+
+
+
 
 
 
